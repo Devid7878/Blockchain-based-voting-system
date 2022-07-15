@@ -1,0 +1,13 @@
+{
+  "name": "blockchain-based-voting-system",
+  "version": "1.0.0",
+  "description": "A decentralized voting system based on [Ethereum blockchain](https://ethereum.org/dapps/) technology.",
+  "main": "truffle-config.js",
+  "scripts": {
+    "start": "truffle migrate --reset & (cd client & npm start)",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
